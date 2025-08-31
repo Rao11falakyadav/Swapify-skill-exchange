@@ -1,0 +1,39 @@
+
+> swapify@0.1.0 dev
+> next dev --turbopack
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/falakyadav/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/falakyadav/swapify/package-lock.json
+
+   ▲ Next.js 15.5.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.36:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 744ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1811ms
+ GET / 200 in 2160ms
+ ✓ Compiled /dashboard in 219ms
+ GET /dashboard 200 in 277ms
+ ✓ Compiled in 124ms
+ ✓ Compiled /dashboard in 32ms
+ GET /dashboard 200 in 179ms
+ GET /dashboard 200 in 171ms
+ ✓ Compiled in 116ms
+ ✓ Compiled / in 44ms
+ GET / 200 in 222ms
+ ✓ Compiled /dashboard in 43ms
+ GET /dashboard 200 in 105ms
+ ✓ Compiled /search in 317ms
+ GET /search 200 in 346ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ✓ Compiled in 83ms
+ GET /search 200 in 200ms
+ GET /dashboard 200 in 82ms
+ GET / 200 in 74ms

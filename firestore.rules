@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // DEVELOPMENT RULES - More permissive for testing
+    // TODO: Tighten these rules for production
+    
+    // Users collection
+    match /users/{userId} {
+      allow read, write: if request.auth != null;
+    }
+    
+    // Conversations collection
+    match /conversations/{conversationId} {
+      allow read, write, create: if request.auth != null;
+    }
+    
+    // Messages collection
+    match /messages/{messageId} {
+      allow read, write, create: if request.auth != null;
+    }
+    
+    // Allow any authenticated user to read/write (for development)
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
