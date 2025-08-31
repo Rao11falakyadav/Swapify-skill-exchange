@@ -1,8 +1,3 @@
-Perfect 💡 Let’s make your **Swapify README** look professional, clean, and fun with proper spacing, emojis, and a nice structure.
-
-Here’s the improved version:
-
----
 
 # 🔄 Swapify
 
