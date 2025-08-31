@@ -42,11 +42,6 @@ Instead of paying money, you can **teach what you know** and **learn what you wa
 
 ---
 
-## 📸 Screenshots
-
-🖼 *(Add some screenshots here to showcase Swapify — Homepage, Skill listing, Profile, etc.)*
-
----
 
 ## 🚀 Future Roadmap
 
@@ -73,7 +68,3 @@ Contributions are always welcome! ✨
 📝 Licensed under the **MIT License**.
 
 ---
-
-🔥 That’s it! Now your README looks **structured, readable, and attractive** with proper spacing + emojis.
-
-👉 Do you want me to also **add professional badges** at the top (like Next.js, Firebase, Vercel Deploy, MIT License, etc.) for an even cooler GitHub profile look?
