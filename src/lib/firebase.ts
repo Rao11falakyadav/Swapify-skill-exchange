@@ -7,7 +7,7 @@ import { getStorage } from 'firebase/storage';
 // Force deployment update - 2025-09-06
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || 'AIzaSyAB4ScQh1EVCxzeWKZRSUmhMPd9hAQ7kJE',
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || 'AIzaSyCzwxgYUlbVrYvqWRdgYShmk11sAUb7Dxg',
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || 'swapify-skill-exchange.firebaseapp.com',
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || 'swapify-skill-exchange',
   storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || 'swapify-skill-exchange.firebasestorage.app',
